@@ -9,7 +9,7 @@ namespace PierresBakery
     }
     public int GetPrice()
     {
-      return 1;
+      return 2;
     }
   }
 }
