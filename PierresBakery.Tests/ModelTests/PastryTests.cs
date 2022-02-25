@@ -34,10 +34,10 @@ namespace PierresBakery.Tests
     [TestMethod]
     public void GetPrice_ReturnsSalePriceBasedOnQuantity_Int()
     {
-      int quantity = 5;
+      int quantity = 4;
       Pastry newPastry = new Pastry(quantity);
       int result = newPastry.GetPrice();
-      Assert.AreEqual(9, result);
+      Assert.AreEqual(7, result);
     }
   }
 }
