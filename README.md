@@ -37,7 +37,7 @@ This command automatically creates new obj directories in PierresBakery and Pier
 
 Finally, we will run `dotnet test` and the tests will run.
 
-Specific tests are written and can be found in the "tests" folder.
+Specific tests are written and can be found in the `ModelTests` folder.
 
 ## Known Bugs
 
