@@ -2,6 +2,10 @@ namespace PierresBakery
 {
   public class Pastry
   {
-    // properties, constructors, methods, etc. go here
+    public int Quantity { get; set; }
+    public Pastry(int quantity)
+    {
+      Quantity = quantity;
+    }
   }
 }
