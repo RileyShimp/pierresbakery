@@ -2,10 +2,10 @@ namespace PierresBakery
 {
   public class Bread
   {
-    public int Price { get; set; }
-    public Bread(int price)
-    {
-      Price = price;
-    }
+    public int Quantity { get; set; }
+    // public Bread(int quantity)
+    // {
+    //   // Quantity = quantity;
+    // }
   }
 }
