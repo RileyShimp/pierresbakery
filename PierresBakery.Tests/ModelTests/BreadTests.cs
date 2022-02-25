@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PierresBakery;
+using PierresBakery.Models;
 
 namespace PierresBakery.Tests
 {
@@ -30,7 +30,7 @@ namespace PierresBakery.Tests
       int result = newBread.GetPrice();
       Assert.AreEqual(10, result);
     }
-    
+
     [TestMethod]
     public void GetPrice_ReturnsSalePriceBasedOnQuantity_Int()
     {
