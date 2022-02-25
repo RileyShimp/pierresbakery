@@ -8,7 +8,10 @@ namespace PierresBakery
       Quantity = quantity;
     }
     public int GetPrice(){
-      return Quantity * 5;
+      if ((Quantity % 3) == 0){
+        return (Quantity / 3) * 10;
+      }
+      else return Quantity * 5;
     }
   }
 }
