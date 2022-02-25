@@ -7,5 +7,8 @@ namespace PierresBakery
     {
       Quantity = quantity;
     }
+    public int GetPrice(){
+      return 1;
+    }
   }
 }
