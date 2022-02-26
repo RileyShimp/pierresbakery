@@ -33,7 +33,7 @@ Once in the `PierresBakery` folder, run the command `dotnet run`
 After completing steps 1 and 2, you can run tests in your terminal.
 
 To do this, navigate to the `PierresBakery.Tests` folder and run the command `dotnet restore`
-This command automatically creates new obj directories in PierresBakery and PierresBakery.Tests
+This command automatically creates new `obj` directories in `PierresBakery` and `PierresBakery.Tests`
 
 Finally, we will run `dotnet test` and the tests will run.
 
@@ -47,4 +47,4 @@ Specific tests are written and can be found in the `ModelTests` folder.
 
 [MIT](https://opensource.org/licenses/MIT)
 
-Copyright (c) 01/07/2022 Riley Shimp
+Copyright (c) 02/25/2022 Riley Shimp
