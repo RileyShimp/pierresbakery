@@ -18,6 +18,7 @@ namespace PierresBakery
       Console.WriteLine("---------------------------");
       Console.WriteLine("Our special today is Banana Bread!");
       Console.WriteLine("$10.00 per loaf!");
+      Console.WriteLine("Buy 1, Get One free!!!");
       Console.WriteLine("---------------------------");
       Console.WriteLine("---------------------------");
       Console.WriteLine("How many loaves of bread would you like?");

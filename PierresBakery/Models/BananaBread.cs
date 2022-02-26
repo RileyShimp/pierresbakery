@@ -9,7 +9,11 @@ namespace PierresBakery.Models
     }
     public int GetPrice()
     {
-      return Quantity * 10;
+      if ((Quantity % 2) == 0)
+      {
+        return (Quantity / 2) * 10;
+      }
+      else return ((Quantity % 2) * 10) + (((Quantity - (Quantity % 2)) / 2) * 10);
     }
   }
 }

@@ -28,6 +28,15 @@ namespace PierresBakery.Tests
       int quantity = 2;
       BananaBread newBananaBread = new BananaBread(quantity);
       int result = newBananaBread.GetPrice();
+      Assert.AreEqual(10, result);
+    }
+
+    [TestMethod]
+    public void GetPrice_ReturnsSalePriceBasedOnQuantity_Int()
+    {
+      int quantity = 3;
+      BananaBread newBananaBread = new BananaBread(quantity);
+      int result = newBananaBread.GetPrice();
       Assert.AreEqual(20, result);
     }
   }
