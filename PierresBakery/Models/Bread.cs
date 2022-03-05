@@ -13,7 +13,7 @@ namespace PierresBakery.Models
       {
         return (Quantity / 3) * 10;
       }
-      else return Quantity * 5;
+      else return ((Quantity % 3) * 5) + (((Quantity - (Quantity % 3)) / 3) * 10);
     }
   }
 }
